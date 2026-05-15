@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
     Detect-ToastNotification.ps1 - Detection Script for Toast Notification Script for Microsoft Intune
 
@@ -57,7 +57,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory=$false)]
-    [string]$Config = "https://toast.imab.dk/config-toast-nofeatures.xml"
+    [string]$Config = "https://github.com/Numotion-ITCommsGit/Public_Files/blob/main/config-toast-pendingreboot.xml"
 )
 
 # Create Get-DeviceUptime function (same as main script)
