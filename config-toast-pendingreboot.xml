@@ -8,8 +8,8 @@
 	<Option Name="WeeklyMessageHour" Value="9" /> <!-- Hour when WeeklyMessage should trigger (-1=any hour during target day, 0-23=specific hour in 24-hour format) -->
 	<Option Name="PendingRebootUptimeText" Enabled="True" />	<!-- Adds an additional group to the toast with text about the uptime of the computer -->
 	<Option Name="CustomNotificationApp" Enabled="True" Value="Numotion NOTIFICATIONS"/>	<!-- The app in Windows doing the actual notification. When enabled, uses custom app. When disabled, automatically defaults to PowerShell app for reliable notification delivery -->
-	<Option Name="LogoImageName" Value="https://toast.imab.dk/ToastLogoImageIMAB.png" />  <!-- File name of the image shown as logo in the toast notoification  -->
-	<Option Name="HeroImageName" Value="https://toast.imab.dk/ToastHeroImageIMAB.png" /> <!-- File name of the image shown in the top of the toast notification -->	
+	<Option Name="LogoImageName" Value="https://github.com/Numotion-ITCommsGit/Public_Files/blob/main/It%20Update%20Banner%201.png" />  <!-- File name of the image shown as logo in the toast notoification  -->
+	<Option Name="HeroImageName" Value="https://github.com/Numotion-ITCommsGit/Public_Files/blob/main/Numotion-Circle_CMYK_Dark%20Blue.png" /> <!-- File name of the image shown in the top of the toast notification -->	
 	<Option Name="ActionButton1" Enabled="True" />	<!-- Enables or disables the action button. -->
 	<Option Name="ActionButton2" Enabled="True" />	<!-- Enables or disables the action button. -->
 	<Option Name="DismissButton" Enabled="True" />	<!-- Enables or disables the dismiss button. -->
