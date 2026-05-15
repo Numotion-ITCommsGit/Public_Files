@@ -57,7 +57,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory=$false)]
-    [string]$Config = "https://github.com/Numotion-ITCommsGit/Public_Files/blob/main/config-toast-pendingreboot.xml"
+    [string]$Config = "https://github.com/Numotion-ITCommsGit/Public_Files/blob/c14eec9f4f002f08cf2a54177443a513f1c13108/config-toast-pendingreboot.xml"
 )
 
 # Create Get-DeviceUptime function (same as main script)
