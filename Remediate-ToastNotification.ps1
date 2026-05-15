@@ -15,7 +15,7 @@
 
 .PARAMETER Config
     Path or URL to the XML configuration file.
-    Default: "https://toast.imab.dk/config-toast-pendingreboot.xml"
+    Default: "https://github.com/Numotion-ITCommsGit/Public_Files/blob/main/config-toast-pendingreboot.xml"
 
 .EXAMPLE
     .\Remediate-ToastNotification.ps1
@@ -61,7 +61,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory=$false)]
-    [string]$Config = "https://github.com/Numotion-ITCommsGit/Public_Files/blob/main/config-toast-pendingreboot.xml"
+    [string]$Config = "https://github.com/Numotion-ITCommsGit/Public_Files/blob/c14eec9f4f002f08cf2a54177443a513f1c13108/config-toast-pendingreboot.xml"
 )
 function Write-Log() {
     [CmdletBinding()]
