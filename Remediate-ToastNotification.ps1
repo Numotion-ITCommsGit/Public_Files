@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
     Remediate-ToastNotification.ps1 - Toast Notification Script for Microsoft Intune
 
@@ -61,7 +61,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory=$false)]
-    [string]$Config = "https://toast.imab.dk/config-toast-nofeatures.xml"
+    [string]$Config = "https://github.com/Numotion-ITCommsGit/Public_Files/blob/main/config-toast-pendingreboot.xml"
 )
 function Write-Log() {
     [CmdletBinding()]
